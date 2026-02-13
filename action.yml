@@ -1,5 +1,5 @@
-name: testermc
-author: gmitch215
+name: mctester
+author: NagasonicDev
 description: Tests a Minecraft Plugin on a Minecraft Server
 branding:
   icon: 'server'
@@ -46,3 +46,4 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
