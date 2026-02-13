@@ -37,6 +37,11 @@ export const runtimes = {
     "exec": "mvn clean install",
     "output": "bootstrap/target/BungeeCord.jar",
     "versions": {
+      "1.21.11": "0bc4587bcf5fd63f28eb896467463af381192672",
+      "1.21.9": "296b31bd56cb1449644ecf02eb66b3e3d07d332b",
+      "1.21.7": "7c7cb3de0fa8e57b312b21d4d7e337df7ac01880",
+      "1.21.6": "5b05934fe8df1aaf928ab1d644ee6a5650d431d7",
+      "1.21.5": "c820b3a0629a9efbc708a7de1a6c77b6c4c217f1",
       "1.21.4": "8a80435e647c358b0c2235549fabbda4627b532a",
       "1.21.2": "4886c4be017761333dc67b9c300acc7481354a7d",
       "1.21": "8a88ce464e0b107b15523109afd7810096e635ca",
@@ -75,5 +80,6 @@ export const runtimes = {
     "url": "https://meta.fabricmc.net/v2/versions/loader/{version}/{build}/server/jar"
   }
 }
+
 
 export const current = core.getInput('runtime', { required: true })
