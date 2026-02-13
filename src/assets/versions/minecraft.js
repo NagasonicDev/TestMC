@@ -82,6 +82,8 @@ export const versions = {
         "1.8"
     ],
     "similar_versions": {
+        "1.21.10": ["1.21.9"],
+        "1.21.8": ["1.21.7"],
         "1.21.3": ["1.21.2"],
         "1.21.1": ["1.21"],
 
@@ -147,5 +149,6 @@ export function isAvailable(version) {
 
     return included
 }
+
 
 
