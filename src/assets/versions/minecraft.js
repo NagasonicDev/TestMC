@@ -4,6 +4,13 @@ export const versions = {
     "latest": "1.21.4",
     "versions": [
         // Versions must be found from https://hub.spigotmc.org/versions/
+        "1.21.11",
+        "1.21.10",
+        "1.21.9",
+        "1.21.8",
+        "1.21.7",
+        "1.21.6",
+        "1.21.5",
         "1.21.4",
         "1.21.3",
         "1.21.2",
@@ -140,3 +147,4 @@ export function isAvailable(version) {
 
     return included
 }
+
