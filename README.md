@@ -1,3 +1,5 @@
+# WARNING: I DID NOT CREATE THIS ACTION, THIS IS JUST AN UPDATED VERSION, ALL CREDIT GOES TO GMITCH125.
+
 # 🔬 TestMC
 
 > A GitHub Action to test Minecraft Plugins on a Server for a Specific Version
@@ -168,3 +170,4 @@ jobs:
 ## 🧑🏾‍💻 License
 
 This project is licensed under the [LGPL-3.0](LICENSE) License, similar to other Bukkit projects.
+
